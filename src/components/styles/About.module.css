@@ -1,0 +1,48 @@
+.about_info {
+  margin-bottom: 2rem;
+}
+
+.about_skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech_stack {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill_item {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.skill_item p {
+  font-size: 0.7rem;
+}
+
+.tech_stack img {
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (min-width: 992px) {
+  .about_center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+
+  .about_info {
+    margin-bottom: 0;
+  }
+}
