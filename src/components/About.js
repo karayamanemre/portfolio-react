@@ -24,17 +24,17 @@ const About = () => {
           </form>
         </article>
         <div class={styles.about_skills}>
-        <ul class={styles.tech_stack}>
-          {techStack.map((tech) => {
-            return (
-              <li class={styles.skill_item} key={tech.id}>
-                <img src={tech.img} alt='logo' />
-                <p>{tech.text}</p>
-              </li>
-            )
-          })}
-        </ul>
-      </div>
+          <ul class={styles.tech_stack}>
+            {techStack.map((tech) => {
+              return (
+                <li class={styles.skill_item} key={tech.id}>
+                  <img src={tech.img} alt='logo' />
+                  <p>{tech.text}</p>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
       </div>
     </section>
   )

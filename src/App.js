@@ -7,14 +7,16 @@ import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 
 function App() {
-  return (<>
-    <Navbar/>
-    <Hero/>
-    <Portfolio/>
-    <About/>
-    <Contact/>
-    <Footer/>
-  </>);
+  return (
+    <>
+      <Navbar/>
+      <Hero/>
+      <Portfolio/>
+      <About/>
+      <Contact/>
+      <Footer/>
+    </>
+  )
 }
 
 export default App;

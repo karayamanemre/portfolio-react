@@ -13,14 +13,34 @@ const Contact = () => {
         </p>
         <form className={styles.contact_form} action="https://formspree.io/f/xzbwzdvd" method="post" id="form">
           <label htmlFor="contact-name" hidden>Name</label>
-          <input type="text" name="contact-name" placeholder="Your Name" className={styles.contact_element} id="contact-name"
-            maxLength="30" required />
+          <input
+            type="text"
+            name="contact-name"
+            placeholder="Your Name"
+            className={styles.contact_element}
+            id="contact-name"
+            maxLength="30"
+            required
+          />
           <label htmlFor="contact-email" hidden>Email</label>
-          <input type="email" name="contact-mail" placeholder="Your Email" className={styles.contact_element} id="contact-email"
-            required />
+          <input
+            type="email"
+            name="contact-mail"
+            placeholder="Your Email"
+            className={styles.contact_element}
+            id="contact-email"
+            required
+          />
           <label htmlFor="contact-message" hidden>Message</label>
-          <textarea name="contact-message" id="contact-message" className={styles.contact_element} maxLength="500"
-            placeholder="Your message" required></textarea>
+          <textarea
+            name="contact-message"
+            id="contact-message"
+            className={styles.contact_element}
+            maxLength="500"
+            placeholder="Your message"
+            required
+          >
+          </textarea>
           <button type="submit" className="btn">Get In Touch</button>
         </form>
       </div>  

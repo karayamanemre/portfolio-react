@@ -73,5 +73,5 @@ export const works = [
     info: 'A web page for saving and storing bookmarks using local storage in browser. Built with JavaScript.',
     liveLink: 'https://karayamanemre.github.io/bookmark-page/',
     sourceLink: 'https://github.com/karayamanemre/bookmark-page'
-  },
+  }
 ]

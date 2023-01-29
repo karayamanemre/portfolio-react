@@ -14,10 +14,10 @@ const Work = ({ image, date, title, info, liveLink, sourceLink }) => {
         </div>
         <p>{info}</p>
         <div className={styles.work_footer}>
-          <a href={liveLink} target='_blank' rel="noopener noreferrer">
+          <a href={liveLink} target='_blank' rel='noopener noreferrer'>
             See Live
           </a>
-          <a href={sourceLink} target='_blank' rel="noopener noreferrer">
+          <a href={sourceLink} target='_blank' rel='noopener noreferrer'>
             See Source
           </a>
         </div>
@@ -25,4 +25,5 @@ const Work = ({ image, date, title, info, liveLink, sourceLink }) => {
     </article>
   )
 }
+
 export default Work
