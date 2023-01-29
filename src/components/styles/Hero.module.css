@@ -1,6 +1,7 @@
 .hero {
   min-height: 100vh;
-  background: var(--clr-primary-5);
+  background: linear-gradient(rgb(255, 254, 255, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../../images/hero-bg.jpeg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,11 +35,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero {
-    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-      url('../../images/hero-bg.jpeg') center/cover no-repeat;
-  }
-
   .hero_banner {
     padding: 0;
   }

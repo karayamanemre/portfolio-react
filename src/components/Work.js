@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './styles/Portfolio.module.css'
-import { works } from '../data'
 
 const Work = ({ image, date, title, info, liveLink, sourceLink }) => {
   return (
@@ -15,13 +14,12 @@ const Work = ({ image, date, title, info, liveLink, sourceLink }) => {
         </div>
         <p>{info}</p>
         <div className={styles.work_footer}>
-          <p>
-            <span>
-              <i className='fas fa_map'></i>
-            </span>
-            {liveLink}
-          </p>
-          <p>{sourceLink} days</p>
+          <a href={liveLink} target='_blank' rel="noopener noreferrer">
+            See Live
+          </a>
+          <a href={sourceLink} target='_blank' rel="noopener noreferrer">
+            See Source
+          </a>
         </div>
       </div>
     </article>
