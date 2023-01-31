@@ -1,5 +1,5 @@
 .footer {
-  background: var(--clr-grey-1);
+  background: var(--primary-color);
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -12,7 +12,7 @@
   flex-wrap: wrap;
 }
 .footer_link {
-  color: var(--clr-white);
+  color: var(--white);
   text-transform: capitalize;
   font-size: 1rem;
   margin-right: 1rem;
@@ -20,21 +20,21 @@
   transition: var(--transition);
 }
 .footer_link:hover {
-  color: var(--clr-primary-5);
+  color: var(--grayish);
 }
 .footer_icon {
   font-size: 2rem;
   margin-right: 1rem;
-  color: var(--clr-white);
+  color: var(--grayish);
   transition: var(--transition);
 }
 .footer_icon:hover {
-  color: var(--clr-primary-5);
+  color: var(--secondary-color);
 }
 .copyright {
   text-transform: capitalize;
   letter-spacing: var(--spacing);
-  color: var(--clr-white);
+  color: var(--white);
 }
 .copyright span {
   margin-left: 0.5rem;

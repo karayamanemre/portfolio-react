@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--clr-white);
+  background: var(--white);
   box-shadow: var(--dark-shadow);
   z-index: 2;
   height: 4rem;
@@ -29,6 +29,8 @@
 
 .nav_header span {
   font-size: 1.2rem;
+  letter-spacing: var(--spacing);
+  color: var(--primary-color);
 }
 
 .nav_toggle {
@@ -39,7 +41,7 @@
   border: none;
   outline: none;
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--primary-color);
   cursor: pointer;
   transition: var(--transition);
 }
@@ -50,15 +52,13 @@
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   transition: var(--transition);
-  color: var(--clr-grey-1);
+  color: var(--primary-color);
   cursor: pointer;
   font-size: 1rem;
 }
 
 .nav_link:hover {
-  color: var(--clr-primary-1);
-  background: var(--clr-primary-8);
-  padding-left: 2.25rem;
+  color: var(--secondary-color);
 }
 
 .nav_links {
@@ -78,7 +78,7 @@
   left: 0;
   background: rgba(255, 255, 255, 0.9);
   margin-top: 4rem;
-  border-bottom: 0.25rem solid var(--clr-primary-5);
+  border-bottom: 0.25rem solid var(--primary-color);
 }
 
 @media screen and (min-width: 992px) {
@@ -104,11 +104,12 @@
 
   .nav_link {
     padding: 0 0;
+    color: var(--primary-color);
   }
 
   .nav_link:hover {
     padding: 0;
-    color: var(--clr-primary-5);
+    color: var(--secondary-color);
     background: transparent;
   }
 
@@ -122,12 +123,12 @@
 
   .nav_icon {
     margin-right: 0.7rem;
-    color: var(--clr-primary-5);
+    color: var(--primary-color);
     font-size: 1.2rem;
     transition: var(--transition);
   }
 
   .nav_icon:hover {
-    color: var(--clr-primary-8);
+    color: var(--secondary-color);
   }
 }
