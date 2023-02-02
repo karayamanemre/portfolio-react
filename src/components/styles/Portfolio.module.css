@@ -17,6 +17,7 @@
 .work_img {
   height: 15rem;
   object-fit: cover;
+  border-bottom: 5px solid var(--secondary-color);
 }
 
 .work_date {
@@ -46,6 +47,28 @@
 }
 
 .work_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tags {
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+}
+
+.tags p {
+  font-size: 14px;
+  display: inline;
+  padding: 6px;
+  border-radius: 15px;
+  background: var(--white);
+  color: var(--secondary-color);
+}
+
+.work_links {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

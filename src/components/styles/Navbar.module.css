@@ -65,6 +65,7 @@
   height: 0;
   overflow: hidden;
   transition: var(--transition);
+  text-align: center;
 }
 
 .toggle_menu {

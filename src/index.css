@@ -6,7 +6,7 @@
   --grayish: hsl(210, 31%, 95%);
   --white: #fff;
   --transition: all 0.35s linear;
-  --spacing: 0.25rem;
+  --spacing: 0.15rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);

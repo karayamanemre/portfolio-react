@@ -2,6 +2,7 @@ import cryptoMarket from './images/crypto-market.png';
 import todo from './images/todo.png';
 import kanban from './images/kanban.png';
 import bookmark from './images/bookmark.png';
+import kitap from './images/kitaplardan.jpeg'
 
 export const pageLinks = [
   {id: 1, href: '#home', text: 'home'},
@@ -44,6 +45,7 @@ export const works = [
     date: '2022',
     title: 'Crypto Market App',
     info: 'Crypto Market is a SPA that allow users to check live prices of cryptocurrencies. Built with React and CoinGecko API.',
+    tags: ['react'],
     liveLink: 'https://cryptomarketapp-karayamanemre.netlify.app/',
     sourceLink: 'https://github.com/karayamanemre/crypto-market-app'
   },
@@ -53,6 +55,7 @@ export const works = [
     date: '2022',
     title: 'To-Do List',
     info: 'A minimal "To-do list" app that helps to organize your day. It simply creates a list of the tasks you have to complete along with the option to check them off. Built with JavaScript.',
+    tags: ['javascript'],
     liveLink: 'https://karayamanemre.github.io/to-do-list/dist/',
     sourceLink: 'https://github.com/karayamanemre/to-do-list'
   },
@@ -62,6 +65,7 @@ export const works = [
     date: '2022',
     title: 'Kanban Board',
     info: 'Simple Kanban Board built with Vanilla JavaScript.',
+    tags: ['javascript'],
     liveLink: 'https://karayamanemre.github.io/kanban-board/',
     sourceLink: 'https://github.com/karayamanemre/kanban-board'
   },
@@ -71,7 +75,18 @@ export const works = [
     date: '2022',
     title: 'Bookmark Page',
     info: 'A web page for saving and storing bookmarks using local storage in browser. Built with JavaScript.',
+    tags: ['javascript'],
     liveLink: 'https://karayamanemre.github.io/bookmark-page/',
     sourceLink: 'https://github.com/karayamanemre/bookmark-page'
+  },
+  {
+    id: 5,
+    image: kitap,
+    date: '2019',
+    title: 'Bookmark Page',
+    info: 'A book review blog updated daily with new content. Designed in WordPress.',
+    tags: ['wordpress', 'css'],
+    liveLink: 'https://kitaplardananlamayanadam.com/',
+    sourceLink: 'https://kitaplardananlamayanadam.com/'
   }
 ]
