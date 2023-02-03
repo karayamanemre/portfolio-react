@@ -45,7 +45,7 @@ export const works = [
     date: '2022',
     title: 'Crypto Market App',
     info: 'Crypto Market is a SPA that allow users to check live prices of cryptocurrencies. Built with React and CoinGecko API.',
-    tags: ['react'],
+    tags: ['react', 'redux'],
     liveLink: 'https://cryptomarketapp-karayamanemre.netlify.app/',
     sourceLink: 'https://github.com/karayamanemre/crypto-market-app'
   },
@@ -55,7 +55,7 @@ export const works = [
     date: '2022',
     title: 'To-Do List',
     info: 'A minimal "To-do list" app that helps to organize your day. It simply creates a list of the tasks you have to complete along with the option to check them off. Built with JavaScript.',
-    tags: ['javascript'],
+    tags: ['javascript', 'webpack'],
     liveLink: 'https://karayamanemre.github.io/to-do-list/dist/',
     sourceLink: 'https://github.com/karayamanemre/to-do-list'
   },
