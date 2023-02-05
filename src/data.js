@@ -37,6 +37,7 @@ export const techStack = [
   {id: 11, img: 'https://karayamanemre.github.io/assets/icons/webpack.png', text: 'Webpack'},
   {id: 12, img: 'https://karayamanemre.github.io/assets/icons/rspec.png', text: 'RSpec'},
   {id: 13, img: 'https://karayamanemre.github.io/assets/icons/jest.png', text: 'Jest'},
+  {id: 14, img: 'https://karayamanemre.github.io/assets/icons/vite.png', text: 'Vite'},
 ]
 
 export const works = [
