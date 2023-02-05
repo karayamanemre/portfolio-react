@@ -23,21 +23,21 @@ export const socialLinks = [
 ]
 
 export const techStack = [
-  {id: 1, img: 'https://karayamanemre.github.io/assets/icons/javascript.png', text: 'JavaScript'},
-  {id: 2, img: 'https://karayamanemre.github.io/assets/icons/react.png', text: 'React'},
-  {id: 3, img: 'https://karayamanemre.github.io/assets/icons/redux.png', text: 'Redux'},
-  {id: 4, img: 'https://karayamanemre.github.io/assets/icons/ruby.png', text: 'Ruby'},
-  {id: 5, img: 'https://karayamanemre.github.io/assets/icons/rails.png', text: 'Ruby on Rails'},
-  {id: 6, img: 'https://karayamanemre.github.io/assets/icons/postgresql.png', text: 'PostgreSQL'},
-  {id: 6, img: 'https://karayamanemre.github.io/assets/icons/bootstrap.png', text: 'Bootstrap'},
-  {id: 7, img: 'https://karayamanemre.github.io/assets/icons/css3.png', text: 'CSS'},
-  {id: 8, img: 'https://karayamanemre.github.io/assets/icons/wordpress.png', text: 'WordPress'},
-  {id: 9, img: 'https://karayamanemre.github.io/assets/icons/html5.png', text: 'HTML'},
-  {id: 10, img: 'https://karayamanemre.github.io/assets/icons/gitflow.png', text: 'Gitflow'},
-  {id: 11, img: 'https://karayamanemre.github.io/assets/icons/webpack.png', text: 'Webpack'},
-  {id: 12, img: 'https://karayamanemre.github.io/assets/icons/rspec.png', text: 'RSpec'},
-  {id: 13, img: 'https://karayamanemre.github.io/assets/icons/jest.png', text: 'Jest'},
-  {id: 14, img: 'https://karayamanemre.github.io/assets/icons/vite.png', text: 'Vite'},
+  {id: 1, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/javascript.png', text: 'JavaScript'},
+  {id: 2, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/react.png', text: 'React'},
+  {id: 3, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/redux.png', text: 'Redux'},
+  {id: 4, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/ruby.png', text: 'Ruby'},
+  {id: 5, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/rails.png', text: 'Ruby on Rails'},
+  {id: 6, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/postgresql.png', text: 'PostgreSQL'},
+  {id: 6, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/bootstrap.png', text: 'Bootstrap'},
+  {id: 7, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/css3.png', text: 'CSS'},
+  {id: 8, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/wordpress.png', text: 'WordPress'},
+  {id: 9, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/html5.png', text: 'HTML'},
+  {id: 10, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/gitflow.png', text: 'Gitflow'},
+  {id: 11, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/webpack.png', text: 'Webpack'},
+  {id: 12, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/rspec.png', text: 'RSpec'},
+  {id: 13, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/jest.png', text: 'Jest'},
+  {id: 14, img: 'https://karayamanemre.github.io/emre-portfolio/assets/icons/vite.png', text: 'Vite'},
 ]
 
 export const works = [
