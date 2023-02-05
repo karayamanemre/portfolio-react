@@ -3,6 +3,7 @@ import todo from './images/todo.png';
 import kanban from './images/kanban.png';
 import bookmark from './images/bookmark.png';
 import kitap from './images/kitaplardan.jpeg'
+import weather from './images/weather.png'
 
 export const pageLinks = [
   {id: 1, href: '#home', text: 'home'},
@@ -51,6 +52,16 @@ export const works = [
   },
   {
     id: 2,
+    image: weather,
+    date: '2022',
+    title: 'Weather App',
+    info: 'This weather app React project is built using Vite, a fast and optimized frontend development build tool, and OpenWeather API to retrieve weather information for various cities.',
+    tags: ['react', 'vite'],
+    liveLink: 'https://weather-react-karayamanemre.netlify.app/',
+    sourceLink: 'https://github.com/karayamanemre/weather-app-react'
+  },
+  {
+    id: 3,
     image: todo,
     date: '2022',
     title: 'To-Do List',
@@ -60,7 +71,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/to-do-list'
   },
   {
-    id: 3,
+    id: 4,
     image: kanban,
     date: '2022',
     title: 'Kanban Board',
@@ -70,7 +81,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/kanban-board'
   },
   {
-    id: 4,
+    id: 5,
     image: bookmark,
     date: '2022',
     title: 'Bookmark Page',
@@ -80,7 +91,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/bookmark-page'
   },
   {
-    id: 5,
+    id: 6,
     image: kitap,
     date: '2019',
     title: 'Bookmark Page',
