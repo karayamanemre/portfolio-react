@@ -19,7 +19,7 @@ const About = () => {
             I've done a lot of remote work with coworkers in other time zones and cultures.
             Feel free to get in touch if you're interested and could use some help with a coding project.
           </p>
-          <form method="get" action="https://karayamanemre.github.io/assets/EmreKarayamanResume.pdf" target='_blank'>
+          <form method="get" action="https://karayamanemre.github.io/emre-portfolio/assets/EmreKarayamanResume.pdf" target='_blank'>
             <button type="submit" className='btn' target='_blank'>Get my resume</button>
           </form>
         </article>
