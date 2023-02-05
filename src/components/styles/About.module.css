@@ -35,6 +35,11 @@
   height: 48px;
 }
 
+.gh_chart {
+  margin: 50px auto;
+  width: 90%;
+}
+
 @media screen and (min-width: 992px) {
   .about_center {
     display: grid;
@@ -44,5 +49,10 @@
 
   .about_info {
     margin-bottom: 0;
+  }
+
+  .gh_chart {
+    margin: 50px auto;
+    width: 850px;
   }
 }

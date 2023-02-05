@@ -23,11 +23,11 @@ const About = () => {
             <button type="submit" className='btn' target='_blank'>Get my resume</button>
           </form>
         </article>
-        <div class={styles.about_skills}>
-          <ul class={styles.tech_stack}>
+        <div className={styles.about_skills}>
+          <ul className={styles.tech_stack}>
             {techStack.map((tech) => {
               return (
-                <li class={styles.skill_item} key={tech.id}>
+                <li className={styles.skill_item} key={tech.id}>
                   <img src={tech.img} alt='logo' />
                   <p>{tech.text}</p>
                 </li>
@@ -36,6 +36,9 @@ const About = () => {
           </ul>
         </div>
       </div>
+      <a href="https://github.com/karayamanemre" target='_blank' rel="noopener noreferrer">
+        <img className={styles.gh_chart} src="https://ghchart.rshah.org/288AAD/karayamanemre" alt="EmreKarayaman's Github chart" />
+      </a>
     </section>
   )
 }
