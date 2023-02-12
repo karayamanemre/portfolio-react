@@ -95,7 +95,7 @@ export const works = [
     id: 6,
     image: kitap,
     date: '2019',
-    title: 'Bookmark Page',
+    title: 'KitaplardanAnlamayanAdam',
     info: 'A book review blog updated daily with new content. Designed in WordPress.',
     tags: ['wordpress', 'css'],
     liveLink: 'https://kitaplardananlamayanadam.com/',
