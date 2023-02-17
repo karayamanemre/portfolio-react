@@ -59,7 +59,7 @@ export const works = [
     title: 'Crypto Market App',
     info: 'Crypto Market is a SPA that allow users to check live prices of cryptocurrencies. Built with React and CoinGecko API.',
     tags: ['react', 'redux'],
-    liveLink: 'https://cryptomarketapp-karayamanemre.netlify.app/',
+    liveLink: 'https://crypto-market-48bcb.web.app/',
     sourceLink: 'https://github.com/karayamanemre/crypto-market-app'
   },
   {
