@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './styles/Navbar.module.css'
 import PageLinks from './PageLinks'
 import SocialLinks from './SocialLinks'
@@ -8,6 +8,16 @@ const Navbar = () => {
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+  useEffect(() => {
+  const handleClick = (event) => {
+    if (openMenu && !event.target.closest(`.${styles.nav_header}`)) {
+      toggleMenu();
+    }
+  };
+  document.addEventListener('click', handleClick);
+  return () => document.removeEventListener('click', handleClick);
+  }, [openMenu]);
 
   return (
     <nav className={styles.navbar}>
