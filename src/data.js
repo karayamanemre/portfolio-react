@@ -68,7 +68,7 @@ export const works = [
     date: '2022',
     title: 'Weather App',
     info: 'This weather app React project is built using Vite, a fast and optimized frontend development build tool, and OpenWeather API to retrieve weather information for various cities.',
-    tags: ['react', 'vite'],
+    tags: ['reactJS', 'vite'],
     liveLink: 'https://weather-react-karayamanemre.netlify.app/',
     sourceLink: 'https://github.com/karayamanemre/weather-app-react'
   },
