@@ -7,7 +7,7 @@
 
 .work_card:hover {
   box-shadow: var(--dark-shadow);
-  transform: scale(1.01);
+  transform: scale(1.001);
 }
 
 .work_img_container {
