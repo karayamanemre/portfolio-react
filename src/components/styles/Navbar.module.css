@@ -82,6 +82,23 @@
   border-bottom: 0.25rem solid var(--primary-color);
 }
 
+.social_mobile {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.links_mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_icon {
+  font-size: 1.25rem;
+}
+
 @media screen and (min-width: 992px) {
   .nav_toggle {
     display: none;
