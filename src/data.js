@@ -1,7 +1,4 @@
 import cryptoMarket from './images/crypto-market.png';
-import todo from './images/todo.png';
-import kanban from './images/kanban.png';
-import bookmark from './images/bookmark.png';
 import kitap from './images/kitaplardan.jpeg';
 import weather from './images/weather.png';
 import budget from './images/budget.png';
@@ -178,36 +175,6 @@ export const works = [
   },
   {
     id: 5,
-    image: todo,
-    date: '2022',
-    title: 'To-Do List',
-    info: 'A minimal "To-do list" app that helps to organize your day. It simply creates a list of the tasks you have to complete along with the option to check them off. Built with JavaScript.',
-    tags: ['javascript', 'webpack'],
-    liveLink: 'https://karayamanemre.github.io/to-do-list/dist/',
-    sourceLink: 'https://github.com/karayamanemre/to-do-list',
-  },
-  {
-    id: 6,
-    image: kanban,
-    date: '2022',
-    title: 'Kanban Board',
-    info: 'Simple Kanban Board built with Vanilla JavaScript and CSS.',
-    tags: ['javascript', 'css'],
-    liveLink: 'https://karayamanemre.github.io/kanban-board/',
-    sourceLink: 'https://github.com/karayamanemre/kanban-board',
-  },
-  {
-    id: 7,
-    image: bookmark,
-    date: '2022',
-    title: 'Bookmark Page',
-    info: 'A web page for saving and storing bookmarks using local storage in browser. Built with JavaScript.',
-    tags: ['javascript', 'css'],
-    liveLink: 'https://karayamanemre.github.io/bookmark-page/',
-    sourceLink: 'https://github.com/karayamanemre/bookmark-page',
-  },
-  {
-    id: 8,
     image: kitap,
     date: '2019',
     title: 'KitaplardanAnlamayanAdam',
