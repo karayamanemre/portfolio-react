@@ -27,15 +27,9 @@ const About = () => {
             and cultures. Feel free to get in touch if you're interested and
             could use some help with a coding project.
           </p>
-          <form
-            method="get"
-            action="https://github.com/karayamanemre/portfolio-react/blob/main/src/resume/EmreKarayamanResume.pdf"
-            target="_blank"
-          >
-            <button type="submit" className="btn" target="_blank">
-              Get my resume
-            </button>
-          </form>
+          <a href="../resume/EmreKarayamanResume.pdf" download>
+            <button className="btn">Get My Resume</button>
+          </a>
         </article>
         <div className={styles.about_skills}>
           <ul className={styles.tech_stack}>
