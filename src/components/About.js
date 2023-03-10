@@ -27,7 +27,11 @@ const About = () => {
             and cultures. Feel free to get in touch if you're interested and
             could use some help with a coding project.
           </p>
-          <a href="../EmreKarayamanResume.pdf" download>
+          <a
+            href="https://karayamanemre.github.io/portfolio-react/public/EmreKarayamanResume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="btn">Get My Resume</button>
           </a>
         </article>
