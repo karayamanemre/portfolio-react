@@ -29,7 +29,7 @@ const About = () => {
           </p>
           <form
             method="get"
-            action="https://karayamanemre.github.io/emre-portfolio/assets/EmreKarayamanResume.pdf"
+            action="https://github.com/karayamanemre/portfolio-react/blob/main/src/resume/EmreKarayamanResume.pdf"
             target="_blank"
           >
             <button type="submit" className="btn" target="_blank">
