@@ -28,7 +28,7 @@ const About = () => {
             could use some help with a coding project.
           </p>
           <a
-            href="https://karayamanemre.github.io/portfolio-react/public/EmreKarayamanResume.pdf"
+            href="https://emrekarayaman.me/EmreKarayamanResume.pdf"
             target="_blank"
             rel="noreferrer"
           >
