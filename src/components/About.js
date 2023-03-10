@@ -27,7 +27,7 @@ const About = () => {
             and cultures. Feel free to get in touch if you're interested and
             could use some help with a coding project.
           </p>
-          <a href="../resume/EmreKarayamanResume.pdf" download>
+          <a href="../EmreKarayamanResume.pdf" download>
             <button className="btn">Get My Resume</button>
           </a>
         </article>
