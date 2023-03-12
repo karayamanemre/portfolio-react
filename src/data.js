@@ -3,6 +3,7 @@ import kitap from './images/kitaplardan.jpeg';
 import weather from './images/weather.png';
 import budget from './images/budget.png';
 import earthquake from './images/earthquake.png';
+import moto from './images/moto.png';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -135,6 +136,16 @@ export const techStack = [
 export const works = [
   {
     id: 1,
+    image: moto,
+    date: '2023',
+    title: 'MotoMate',
+    info: 'MotoMate is a web application for managing motorcycles. The application is built using React for the front-end, Rails for the back-end, and PostgreSQL as the database.',
+    tags: ['ruby on rails', 'reactJs', 'postgreSQL'],
+    liveLink: 'https://motomate-1002c.web.app/',
+    sourceLink: 'https://github.com/karayamanemre/moto-front-end',
+  },
+  {
+    id: 2,
     image: budget,
     date: '2023',
     title: 'Budget Tracker',
@@ -144,7 +155,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/budget-tracker',
   },
   {
-    id: 2,
+    id: 3,
     image: earthquake,
     date: '2023',
     title: 'Earthquakes',
@@ -154,7 +165,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/earthquakes',
   },
   {
-    id: 3,
+    id: 4,
     image: cryptoMarket,
     date: '2022',
     title: 'Crypto Market App',
@@ -164,7 +175,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/crypto-market-app',
   },
   {
-    id: 4,
+    id: 5,
     image: weather,
     date: '2022',
     title: 'Weather App',
@@ -174,7 +185,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/weather-app-react',
   },
   {
-    id: 5,
+    id: 6,
     image: kitap,
     date: '2019',
     title: 'KitaplardanAnlamayanAdam',

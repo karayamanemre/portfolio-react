@@ -7,7 +7,6 @@
 
 .work_card:hover {
   box-shadow: var(--dark-shadow);
-  transform: scale(1.001);
 }
 
 .work_img_container {
@@ -15,8 +14,8 @@
 }
 
 .work_img {
-  height: 15rem;
-  object-fit: cover;
+  height: 22rem;
+  object-fit: contain;
   border-bottom: 5px solid var(--secondary-color);
 }
 
