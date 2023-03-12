@@ -48,9 +48,17 @@ const About = () => {
           </ul>
         </div>
       </div>
-      {/* <a href="https://github.com/karayamanemre" target='_blank' rel="noopener noreferrer">
-        <img className={styles.gh_chart} src="https://ghchart.rshah.org/288AAD/karayamanemre" alt="EmreKarayaman's Github chart" />
-      </a> */}
+      <a
+        href="https://github.com/karayamanemre"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className={styles.gh_chart}
+          src="https://ghchart.rshah.org/288AAD/karayamanemre"
+          alt="EmreKarayaman's Github chart"
+        />
+      </a>
     </section>
   );
 };
