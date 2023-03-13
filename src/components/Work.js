@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './styles/Portfolio.module.css'
+import React from 'react';
+import styles from './styles/Portfolio.module.css';
 
 const Work = ({ image, date, title, info, tags, liveLink, sourceLink }) => {
   return (
@@ -20,17 +20,19 @@ const Work = ({ image, date, title, info, tags, liveLink, sourceLink }) => {
             ))}
           </div>
           <div className={styles.work_links}>
-            <a href={liveLink} target='_blank' rel='noopener noreferrer'>
+            <a href={liveLink} target="_blank" rel="noopener noreferrer">
               See Live
             </a>
-            <a href={sourceLink} target='_blank' rel='noopener noreferrer'>
-              See Source
-            </a>
+            {sourceLink ? (
+              <a href={sourceLink} target="_blank" rel="noopener noreferrer">
+                See Source
+              </a>
+            ) : null}
           </div>
         </div>
       </div>
     </article>
-  )
-}
+  );
+};
 
-export default Work
+export default Work;

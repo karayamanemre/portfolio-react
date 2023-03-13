@@ -192,6 +192,5 @@ export const works = [
     info: 'A book review blog updated daily with new content. Designed in WordPress.',
     tags: ['wordpress', 'css'],
     liveLink: 'https://kitaplardananlamayanadam.com/',
-    sourceLink: 'https://kitaplardananlamayanadam.com/',
   },
 ];
