@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './styles/About.module.css';
 import { techStack } from '../data';
 import Title from './Title';
 
@@ -7,13 +6,13 @@ const About = () => {
   return (
     <section className="section" id="about">
       <Title title="About" subTitle="Me" />
-      <div className={[styles.about_center, 'section-center'].join(' ')}>
-        <article className={styles.about_info}>
-          <p>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 sm:px-60 px-10">
+        <article className="mb-8 md:mb-0">
+          <p className="mb-4">
             I attended Microverse Coding School and participated in daily remote
             team programming sessions.
           </p>
-          <p>
+          <p className="mb-4">
             Before software development, I managed pubs and restaurants.
             Although not development-related, I learned problem-solving,
             effective communication, multitasking, and more. I've been rewarded
@@ -31,17 +30,18 @@ const About = () => {
             href="https://emrekarayaman.me/EmreKarayamanResume.pdf"
             target="_blank"
             rel="noreferrer"
+            className="block mt-8"
           >
             <button className="btn">Get My Resume</button>
           </a>
         </article>
-        <div className={styles.about_skills}>
-          <ul className={styles.tech_stack}>
+        <div className="flex flex-col items-center">
+          <ul className="flex flex-wrap justify-center gap-4">
             {techStack.map((tech) => {
               return (
-                <li className={styles.skill_item} key={tech.id}>
-                  <img src={tech.img} alt="logo" />
-                  <p>{tech.text}</p>
+                <li className="flex flex-col items-center" key={tech.id}>
+                  <img src={tech.img} alt="logo" className="w-12 h-12" />
+                  <p className="text-sm">{tech.text}</p>
                 </li>
               );
             })}
@@ -52,9 +52,10 @@ const About = () => {
         href="https://github.com/karayamanemre"
         target="_blank"
         rel="noopener noreferrer"
+        className="block mx-auto mt-8 w-90 md:w-850"
       >
         <img
-          className={styles.gh_chart}
+          className="mx-auto sm:w-1/2 w-3/4"
           src="https://ghchart.rshah.org/288AAD/karayamanemre"
           alt="EmreKarayaman's Github chart"
         />
