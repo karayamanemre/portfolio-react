@@ -151,7 +151,7 @@ export const works = [
     title: 'Budget Tracker',
     info: 'Budget Tracker app is a user-friendly mobile application for budgeting that anyone may use to keep tabs on their spending.',
     tags: ['ruby on rails', 'postgresql'],
-    liveLink: 'https://budget-tracker-xvkz.onrender.com/',
+    liveLink: 'https://budget-tracker-ek.fly.dev/',
     sourceLink: 'https://github.com/karayamanemre/budget-tracker',
   },
   {
