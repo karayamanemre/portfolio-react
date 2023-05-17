@@ -16,7 +16,7 @@ const Work = ({ image, date, title, info, tags, liveLink, sourceLink }) => {
         <div className={styles.work_footer}>
           <div className={styles.tags}>
             {tags.map((tag) => (
-              <p>{tag}</p>
+              <p>{tag.charAt(0).toUpperCase() + tag.slice(1)}</p>
             ))}
           </div>
           <div className={styles.work_links}>
