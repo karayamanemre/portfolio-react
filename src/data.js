@@ -139,7 +139,7 @@ export const works = [
     image: moto,
     date: '2023',
     title: 'MotoMate',
-    info: 'MotoMate is a web application for managing motorcycles. The application is built using React for the front-end, Rails for the back-end, and PostgreSQL as the database.',
+    info: 'MotoMate is a booking app that allows users to easily book and reserve motorcycles online. With MotoMate, users can log in and access a wide range of motorcycles to choose from.',
     tags: ['ruby on rails', 'reactJs', 'postgreSQL'],
     liveLink: 'https://motomate-1002c.web.app/',
     sourceLink: 'https://github.com/karayamanemre/moto-front-end',
