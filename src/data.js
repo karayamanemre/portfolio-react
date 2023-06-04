@@ -4,6 +4,7 @@ import weather from './images/weather.png';
 import budget from './images/budget.png';
 import earthquake from './images/earthquake.png';
 import moto from './images/moto.png';
+import techshop from './images/techshop.png';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -136,6 +137,16 @@ export const techStack = [
 export const works = [
   {
     id: 1,
+    image: techshop,
+    date: '2023',
+    title: 'TechShop',
+    info: 'TechShop is an eCommerce project that specializes in tech products. Users can browse through a wide range of products and add them to their cart.',
+    tags: ['reactJs', 'nodeJs', 'mongoDB', 'expressJs'],
+    liveLink: 'https://techshop-ktlq.onrender.com/',
+    sourceLink: 'https://github.com/karayamanemre/tech-shop',
+  },
+  {
+    id: 2,
     image: moto,
     date: '2023',
     title: 'MotoMate',
@@ -145,7 +156,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/moto-front-end',
   },
   {
-    id: 2,
+    id: 3,
     image: budget,
     date: '2023',
     title: 'Budget Tracker',
@@ -155,7 +166,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/budget-tracker',
   },
   {
-    id: 3,
+    id: 4,
     image: earthquake,
     date: '2023',
     title: 'Earthquakes',
@@ -165,7 +176,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/earthquakes',
   },
   {
-    id: 4,
+    id: 5,
     image: cryptoMarket,
     date: '2022',
     title: 'Crypto Market App',
@@ -175,7 +186,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/crypto-market-app',
   },
   {
-    id: 5,
+    id: 6,
     image: weather,
     date: '2022',
     title: 'Weather App',
@@ -185,7 +196,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/weather-app-react',
   },
   {
-    id: 6,
+    id: 7,
     image: kitap,
     date: '2019',
     title: 'KitaplardanAnlamayanAdam',
