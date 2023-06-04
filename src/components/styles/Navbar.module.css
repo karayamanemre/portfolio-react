@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.logo {
+  width: 45px;
+}
+
 .nav_icons {
   display: none;
 }

@@ -167,16 +167,6 @@ export const works = [
   },
   {
     id: 3,
-    image: budget,
-    date: '2023',
-    title: 'Budget Tracker',
-    info: 'Budget Tracker app is a user-friendly mobile application for budgeting that anyone may use to keep tabs on their spending.',
-    tags: ['ruby on rails', 'postgresql'],
-    liveLink: 'https://budget-tracker-ek.fly.dev/',
-    sourceLink: 'https://github.com/karayamanemre/budget-tracker',
-  },
-  {
-    id: 4,
     image: earthquake,
     date: '2023',
     title: 'Earthquakes',
@@ -186,7 +176,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/earthquakes',
   },
   {
-    id: 5,
+    id: 4,
     image: cryptoMarket,
     date: '2022',
     title: 'Crypto Market App',
@@ -196,7 +186,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/crypto-market-app',
   },
   {
-    id: 6,
+    id: 5,
     image: weather,
     date: '2022',
     title: 'Weather App',
@@ -206,7 +196,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/weather-app-react',
   },
   {
-    id: 7,
+    id: 6,
     image: kitap,
     date: '2019',
     title: 'KitaplardanAnlamayanAdam',

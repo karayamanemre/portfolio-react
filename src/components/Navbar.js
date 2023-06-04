@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './styles/Navbar.module.css';
 import PageLinks from './PageLinks';
 import SocialLinks from './SocialLinks';
+import logo from '../images/logo-portfolio.png';
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -23,9 +24,10 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.nav_center}>
         <div className={styles.nav_header}>
-          <span>Emre Karayaman</span>
+          <img src={logo} alt='logo' className={styles.logo} />
+
           <button
-            type="button"
+            type='button'
             className={styles.nav_toggle}
             onClick={toggleMenu}
           >
@@ -49,10 +51,6 @@ const Navbar = () => {
           ) : null}
         </div>
         <PageLinks parentClass={styles.nav_links} itemClass={styles.nav_link} />
-        <SocialLinks
-          parentClass={styles.nav_icons}
-          itemClass={styles.nav_icon}
-        />
       </div>
     </nav>
   );
