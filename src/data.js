@@ -1,10 +1,10 @@
 import cryptoMarket from './images/crypto-market.png';
 import kitap from './images/kitaplardan.jpeg';
 import weather from './images/weather.png';
-import budget from './images/budget.png';
 import earthquake from './images/earthquake.png';
 import moto from './images/moto.png';
 import techshop from './images/techshop.png';
+import homegrid from './images/homegrid.png';
 
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -157,6 +157,16 @@ export const works = [
   },
   {
     id: 2,
+    image: homegrid,
+    date: '2023',
+    title: 'Home Grid',
+    info: 'HomeGrid, is a real estate listing application designed for mobile. You can view houses for rent or sale, create listings, and log in using your email or Google account. You can also view the geolocation of a listing on a map.',
+    tags: ['reactJs', 'tailwindCSS', 'leafletJs', 'firestore'],
+    liveLink: 'https://homegrid-chi.vercel.app/',
+    sourceLink: 'https://github.com/karayamanemre/homegrid',
+  },
+  {
+    id: 3,
     image: moto,
     date: '2023',
     title: 'MotoMate',
@@ -166,17 +176,17 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/moto-front-end',
   },
   {
-    id: 3,
+    id: 4,
     image: earthquake,
     date: '2023',
     title: 'Earthquakes',
     info: 'A simple web application that displays a list and a map view of recent earthquakes, with the ability to filter by continent.',
-    tags: ['javascript', 'tailwindCSS', 'leafletJS'],
+    tags: ['javascript', 'tailwindCSS', 'leafletJs'],
     liveLink: 'https://karayamanemre.github.io/earthquakes/',
     sourceLink: 'https://github.com/karayamanemre/earthquakes',
   },
   {
-    id: 4,
+    id: 5,
     image: cryptoMarket,
     date: '2022',
     title: 'Crypto Market App',
@@ -186,7 +196,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/crypto-market-app',
   },
   {
-    id: 5,
+    id: 6,
     image: weather,
     date: '2022',
     title: 'Weather App',
@@ -196,7 +206,7 @@ export const works = [
     sourceLink: 'https://github.com/karayamanemre/weather-app-react',
   },
   {
-    id: 6,
+    id: 7,
     image: kitap,
     date: '2019',
     title: 'KitaplardanAnlamayanAdam',
