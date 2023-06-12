@@ -20,3 +20,14 @@
   font-size: 0.875rem;
   border: 2px solid var(--primary-color);
 }
+
+.contact_social_links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.contact_social_link {
+  font-size: 1.7rem;
+}
