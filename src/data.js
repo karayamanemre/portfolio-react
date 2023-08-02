@@ -203,16 +203,6 @@ export const works = [
 	},
 	{
 		id: 6,
-		image: weather,
-		date: "2022",
-		title: "Weather App",
-		info: "This weather app provides real-time weather information for various cities. It features a handy option to switch between Celsius and Fahrenheit, making it adaptable to user preferences.",
-		tags: ["reactJS", "vite", "tailwindCSS"],
-		liveLink: "https://weather-react-karayamanemre.netlify.app/",
-		sourceLink: "https://github.com/karayamanemre/weather-app-react",
-	},
-	{
-		id: 7,
 		image: kitap,
 		date: "2019",
 		title: "KitaplardanAnlamayanAdam",
