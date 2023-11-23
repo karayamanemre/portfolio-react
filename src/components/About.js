@@ -10,22 +10,9 @@ const About = () => {
       <div className={[styles.about_center, 'section-center'].join(' ')}>
         <article className={styles.about_info}>
           <p>
-            I attended Microverse Coding School and participated in daily remote
-            team programming sessions.
-          </p>
-          <p>
-            Before software development, I managed pubs and restaurants.
-            Although not development-related, I learned problem-solving,
-            effective communication, multitasking, and more. I've been rewarded
-            for my quality and customer service, and I bring the same passion to
-            my software engineering. I'm also a musician and composer. I produce
-            my own music from scratch. I want to use my creativity to design
-            software.
-          </p>
-          <p>
-            I've done a lot of remote work with coworkers in other time zones
-            and cultures. Feel free to get in touch if you're interested and
-            could use some help with a coding project.
+          I participated in significant remote team programming while studying at Microverse Web Development Bootcamp to improve my software development skills. My previous work in hospitality management developed important abilities like problem-solving and good communication, which I now use in my role in software engineering. In addition to my technical abilities, I use my creative side to compose and produce music, giving my work a unique touch. Currently, as a Frontend Developer at <a href='https://assatekno.com/' target="_blank"
+            rel="noreferrer"
+          >Assa Technology</a>, I am now focusing on providing high-quality software solutions. I am constantly interested in new coding projects and partnerships, so please contact me if my abilities match your requirements.
           </p>
           <a
             href="https://emrekarayaman.me/EmreKarayamanResume.pdf"
