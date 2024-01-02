@@ -3,7 +3,7 @@
 
 :root {
 	--primary-color: hsl(208, 63%, 16%);
-	--secondary-color: hsl(195, 70%, 40%);
+	--secondary-color: hsl(195, 70%, 36%);
 	--grayish: hsl(210, 31%, 95%);
 	--white: #fff;
 	--transition: all 0.35s linear;
